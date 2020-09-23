@@ -10,7 +10,7 @@ draft: false
 1. 01-[使用维基百科（Wikipedia）解释名词](http://stugeek.gitee.io/stu-geek/posts/homework1/)
 2. 02-[作业2](http://stugeek.gitee.io/stu-geek/posts/homework2/)
 3. 03-[作业3](http://stugeek.gitee.io/stu-geek/posts/homework3/)
-4. …
+4. 04-[作业4](http://stugeek.gitee.io/stu-geek/posts/homework4/)
 
 ## 实验与实践
 1. 01-[我的Markdown博客](http://stugeek.gitee.io/stu-geek/posts/experiment1/)
