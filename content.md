@@ -11,6 +11,7 @@ draft: false
 2. 02-[作业2](http://stugeek.gitee.io/stu-geek/posts/homework2/)
 3. 03-[作业3](http://stugeek.gitee.io/stu-geek/posts/homework3/)
 4. 04-[作业4](http://stugeek.gitee.io/stu-geek/posts/homework4/)
+5. 05-[作业5](http://stugeek.gitee.io/stu-geek/posts/homework5/)
 
 ## 实验与实践
 1. 01-[我的Markdown博客](http://stugeek.gitee.io/stu-geek/posts/experiment1/)
