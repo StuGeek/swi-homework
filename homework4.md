@@ -42,4 +42,5 @@ BMP 格式,压缩率各是多少?</strong>
 <br/>
 
 <strong>4) Winrar压缩文件是lossless, or lossy 方法？</strong>
+
 答：lossless方法。
