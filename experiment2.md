@@ -56,8 +56,6 @@ https://editor.construct.net/
 
 做好后的游戏作品如下所示：
 
-![](http://stugeek.gitee.io/stu-geek/posts/experiment2-assets/7.mp4)
-
 网址：
 https://www.construct.net/en/free-online-games/spaceship-18198/play
 
