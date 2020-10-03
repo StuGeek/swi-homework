@@ -56,6 +56,9 @@ https://editor.construct.net/
 
 做好后的游戏作品如下所示：
 
+视频：
+https://www.bilibili.com/video/bv1nt4y1v7Lk
+
 网址：
 https://www.construct.net/en/free-online-games/spaceship-18198/play
 
