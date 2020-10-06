@@ -27,12 +27,7 @@ tags: []
 当In A = 1， IN B = 1时，Out = 1
 ![](http://stugeek.gitee.io/stu-geek/posts/experiment3-image/5.png)
 
-| In A | IN B | Out |
-| -----|:-----| ----|
-|  0   |  0   |  0  |
-|  0   |  1   |  0  |
-|  1   |  0   |  0  |
-|  1   |  1   |  1  |
+![](http://stugeek.gitee.io/stu-geek/posts/experiment3-image/23.png)
 
 （3）选做题：
 
@@ -80,16 +75,7 @@ tags: []
 当In A = 1， IN B = 1, IN C = 1时，Out1 = 1, Out2 = 1
 ![](http://stugeek.gitee.io/stu-geek/posts/experiment3-image/14.png)
 
-| In A | IN B | IN C | Out1 | Out2 |
-| -----|:-----|:-----| ---- | ---- |
-|  0   |  0   |  0   |   0  |   0  |
-|  0   |  0   |  1   |   0  |   0  |
-|  0   |  1   |  0   |   0  |   0  |
-|  0   |  1   |  1   |   0  |   0  |
-|  1   |  0   |  0   |   0  |   0  |
-|  1   |  0   |  1   |   1  |   1  |
-|  1   |  1   |  0   |   1  |   1  |
-|  1   |  1   |  1   |   1  |   1  |
+![](http://stugeek.gitee.io/stu-geek/posts/experiment3-image/24.png)
 
 ## 任务 3：理解存储电路
 
@@ -114,13 +100,7 @@ tags: []
 最后当~ Set=1，~ Reset=1时，Q(X)=1，~Q(Y)=1
 ![](http://stugeek.gitee.io/stu-geek/posts/experiment3-image/20.png)
 
-| ~Set |~Reset| Q(X) | ~Q(Y)|
-| -----|:-----|:-----| ---- |
-|  1   |  1   |  0   |   1  |
-|  0   |  1   |  0   |   1  |
-|  1   |  1   |  0   |   1  |
-|  1   |  0   |  1   |   0  |
-|  1   |  1   |  1   |   0  |
+![](http://stugeek.gitee.io/stu-geek/posts/experiment3-image/25.png)
 
 ## 任务 4：设计全加电路
 
