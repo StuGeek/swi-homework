@@ -5,11 +5,11 @@ draft: false
 tags: []
 ---
 
-## 1、According to the von Neumann architecture, List basic parts of a computer.
+1、According to the von Neumann architecture, List basic parts of a computer.
 
 答：运算器，存储器，控制器，输入设备，输出设备。
 
-## 2、A computer has 64 MB (megabytes) of memory. How many bits are needed to address any single byte in memory?
+2、A computer has 64 MB (megabytes) of memory. How many bits are needed to address any single byte in memory?
 
 解：
 
@@ -17,15 +17,15 @@ tags: []
 
 所以用16位
 
-## 3、List basic parts of a CPU, include cache or not?
+3、List basic parts of a CPU, include cache or not?
 
 答：控制部件（控制单元），算术逻辑部件（运算单元），存储单元，存储单元中包括缓存。
 
-## 4、What mean secondary storage. List some on your PC.
+4、What mean secondary storage. List some on your PC.
 
 答：辅助存储设备，U盘，移动硬盘，网络硬盘，光盘。
 
-## 5、使用维基百科，解释以下概念：
+5、使用维基百科，解释以下概念：
 CPU、RAM、ROM、Bus (computing)、Parallel Computing
 
 <strong>CPU：</strong>
@@ -49,11 +49,11 @@ In computer architecture, a bus(a contraction of the Latin omnibus[citation need
 Parallel computing is a type of computation where many calculations or the execution of processes are carried out simultaneously.
 
 
-## 6、写一段文字，简单解释“云计算（cloud computing）"
+6、写一段文字，简单解释“云计算（cloud computing）"
 
 答：云计算是分布式计算的一种，其通过将许多数据的计算和处理程序分解为无数个小程序，通过多台服务器系统处理分析这些小程序再进行合并从而得到结果。
 
-## 7、小孙买了计算机主板，说明书表明“支持双通道DDR3-1333内存，最大支持16G” 
+7、小孙买了计算机主板，说明书表明“支持双通道DDR3-1333内存，最大支持16G” 
 
 1）DDR3内存，“3”和“1333”的含义是什么？
 
