@@ -107,6 +107,7 @@ tags: []
 全加器表达式：
 
 Ci = AiBi + Ci-1(Ai+Bi)
+
 Si = Ai ⊕ Bi ⊕ Ci-1
 
 （1） 画出一位的全加电路 

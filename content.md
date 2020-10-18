@@ -13,8 +13,11 @@ draft: false
 4. 04-[作业4](http://stugeek.gitee.io/stu-geek/posts/homework4/)
 5. 05-[作业5](http://stugeek.gitee.io/stu-geek/posts/homework5/)
 6. 06-[作业6](http://stugeek.gitee.io/stu-geek/posts/homework6/)
+7. 07-[作业7/项目5](http://stugeek.gitee.io/stu-geek/posts/homework7/)
 
 ## 实验与实践
 1. 01-[我的Markdown博客](http://stugeek.gitee.io/stu-geek/posts/experiment1/)
 2. 02-[用Construct 3制作游戏](http://stugeek.gitee.io/stu-geek/posts/experiment2/)
 3. 03-[硬件编程--电路与二进制运算](http://stugeek.gitee.io/stu-geek/posts/experiment3/)
+4. 04-[机器语言编程](http://stugeek.gitee.io/stu-geek/posts/experiment4/)
+5. 05-[项目5/作业7](http://stugeek.gitee.io/stu-geek/posts/experiment5/)
