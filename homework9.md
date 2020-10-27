@@ -21,11 +21,12 @@ from small to large. Write out the list after the 2nd pass. (10 points)
 2. Give a sorted array as list={60,65,75,80,90,95}. Design an algorithm to
 insert the value of x into the sorted array. Then test the algorithm with
 value 50,67,99.
+答：
 
-    将插入点加入到链表末尾
-    WHILE 插入点的值小于前一个点的值
-        将插入点和前一个点交换
-    ENDWHILE
+        将插入点加入到链表末尾
+        WHILE 插入点的值小于前一个点的值
+            将插入点和前一个点交换
+        ENDWHILE
 
 插入点的值为50时，最后list={50,60,65,75,80,90,95}
 
