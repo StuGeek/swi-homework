@@ -13,7 +13,7 @@ draft: false
 4. 04-[作业4](http://stugeek.gitee.io/stu-geek/posts/homework4/)
 5. 05-[作业5](http://stugeek.gitee.io/stu-geek/posts/homework5/)
 6. 06-[作业6](http://stugeek.gitee.io/stu-geek/posts/homework6/)
-7. 07-[作业7/项目5](http://stugeek.gitee.io/stu-geek/posts/homework7/)
+7. 07-[作业7/用伪代码描述算法](http://stugeek.gitee.io/stu-geek/posts/homework7/)
 8. 08-[作业8](http://stugeek.gitee.io/stu-geek/posts/homework8/)
 9. 09-[作业9](http://stugeek.gitee.io/stu-geek/posts/homework9/)
 
@@ -22,4 +22,5 @@ draft: false
 2. 02-[用Construct 3制作游戏](http://stugeek.gitee.io/stu-geek/posts/experiment2/)
 3. 03-[硬件编程--电路与二进制运算](http://stugeek.gitee.io/stu-geek/posts/experiment3/)
 4. 04-[机器语言编程](http://stugeek.gitee.io/stu-geek/posts/experiment4/)
-5. 05-[项目5/作业7](http://stugeek.gitee.io/stu-geek/posts/experiment5/)
+5. 05-[用伪代码描述算法/作业7](http://stugeek.gitee.io/stu-geek/posts/experiment5/)
+6. 06-[Python 交互式编程](http://stugeek.gitee.io/stu-geek/posts/experiment6/)
