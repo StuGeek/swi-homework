@@ -24,3 +24,4 @@ draft: false
 4. 04-[机器语言编程](http://stugeek.gitee.io/stu-geek/posts/experiment4/)
 5. 05-[用伪代码描述算法/作业7](http://stugeek.gitee.io/stu-geek/posts/experiment5/)
 6. 06-[Python 交互式编程](http://stugeek.gitee.io/stu-geek/posts/experiment6/)
+7. 07-[IT伦理与道德](http://stugeek.gitee.io/stu-geek/posts/experiment7/)
