@@ -1,0 +1,162 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define SNACK_MAX_LENGTH 20
+#define SNACK_HEAD 'H'
+#define SNACK_BODY 'X'
+#define BLANK_CELL ' '
+#define SNACK_FOOD '$'
+#define WALL_CELL '*'
+#define HEAD_X snakeX[snakeLength - 1] //记录贪吃蛇头部的横坐标
+#define HEAD_Y snakeY[snakeLength - 1] //记录贪吃蛇头部的纵坐标
+
+//主函数中要使用的控制贪吃蛇的移动的函数，具体实现由向四个方向移动的函数和改变地图函数组成
+void snakeMove(int, int);
+
+//向四个方向移动的函数，具体实现包括一个贪吃蛇身体移动函数
+void moveTop();
+void moveDown();
+void moveLeft();
+void moveRight();
+//贪吃蛇身体移动函数，里面包括一个记录原先贪吃蛇的尾部位置的函数
+void bodyMove();
+//记录贪吃蛇原先的尾部的位置的函数
+void recordTail();
+
+//贪吃蛇移动了后，改变地图的函数
+void changeTheMap();
+
+//主函数中用到输出地图函数
+void output(void);
+
+char map[12][12] = 
+    {"************",
+    "*XXXXH     *",
+    "*          *",
+    "*          *",
+    "*          *",
+    "*          *",
+    "*          *",
+    "*          *",
+    "*          *",
+    "*          *",
+    "*          *",
+    "************"};
+
+int snakeX[SNACK_MAX_LENGTH] = {1, 2, 3, 4, 5};
+int snakeY[SNACK_MAX_LENGTH] = {1, 1, 1, 1, 1};
+int tailX = 1;
+int tailY = 1;
+int snakeLength = 5;
+
+/*
+控制贪吃蛇的移动的函数
+*/
+
+void snakeMove(int dx, int dy){
+    //根据在x坐标和y坐标移动的距离确定是向上下左右哪个方向移动，分别用四个移动方向函数实现
+	if (dx == 0 && dy == 1) moveTop();
+	else if (dx == 0 && dy == -1) moveDown();
+	else if (dx == 1 && dy == 0) moveRight();
+	else if (dx == -1 && dy == 0) moveLeft();
+    //同时改变地图的样式
+    changeTheMap();
+}
+
+/*
+具体实现贪吃蛇向四个方向移动的函数
+不管向哪个方向移动，贪吃蛇的身体肯定都会移动，用一个函数实现
+贪吃蛇的头部的坐标数值对应改变
+*/
+
+//向上移动，贪吃蛇的身体移动，贪吃蛇的头部的横坐标不变，纵坐标减一
+void moveTop(){
+    bodyMove();
+    HEAD_Y -= 1;
+}
+
+//向下移动，贪吃蛇的身体移动，贪吃蛇的头部的横坐标不变，纵坐标加一
+void moveDown(){
+    bodyMove();
+    HEAD_Y += 1;
+}
+
+//向左移动，贪吃蛇的身体移动，贪吃蛇的头部的纵坐标不变，横坐标减一
+void moveLeft(){
+    bodyMove();
+    HEAD_X -= 1;
+}
+
+//向右移动，贪吃蛇的身体移动，贪吃蛇的头部的纵坐标不变，横坐标加一
+void moveRight(){
+    bodyMove();
+    HEAD_X += 1;
+}
+
+/*
+具体实现贪吃蛇的身体移动的函数，其中要记录移动前贪吃蛇尾部的坐标，方便改变地图。
+将贪吃蛇的横坐标数组和纵坐标数组从0到倒数第二个都向后移一位，表示贪吃蛇的身体移动
+*/
+
+void bodyMove(){
+    recordTail();
+    for (int i = 0; i < snakeLength - 1; ++i){
+        snakeX[i] = snakeX[i + 1];
+        snakeY[i] = snakeY[i + 1];
+    }
+}
+
+/*
+具体实现记录贪吃蛇身体移动前尾部的坐标的函数
+*/
+
+void recordTail(){
+    tailX = snakeX[0];
+    tailY = snakeY[0];
+}
+
+/*
+改变地图的函数，贪吃蛇移动了后，新的贪吃蛇头部的坐标的样式为'H'，
+原来的头部的坐标的样式为'X'，原来的尾部的坐标的样式为' '，完成地图的改变
+*/
+
+void changeTheMap(){
+    map[snakeY[snakeLength - 2]][snakeX[snakeLength - 2]] = SNACK_BODY;
+    map[HEAD_Y][HEAD_X] = SNACK_HEAD;
+    map[tailY][tailX] = BLANK_CELL;
+}
+
+/*
+打印地图函数，将原来的界面清空之后，输出新的地图
+*/
+void output(){
+	system("cls");
+    for (int i = 0; i < 12; ++i){
+        for (int j = 0; j < 12; ++j){
+            printf("%c", map[i][j]);
+        }
+        printf("\n");
+    }
+    printf("Please input wasd to move:");
+}
+
+int main(){
+    char c;
+    output();
+    //根据不同的输入向不同的方向移动
+    while((c = getchar()) != EOF){
+        switch (c){
+            case 'A': 
+            case 'a': snakeMove(-1, 0); break;
+            case 'D':
+            case 'd': snakeMove(1, 0); break;
+            case 'S':
+            case 's': snakeMove(0, -1); break;
+            case 'W':
+            case 'w': snakeMove(0, 1); break;
+        }
+        fflush(stdin);
+        output();
+    }
+}
