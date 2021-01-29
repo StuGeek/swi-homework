@@ -26,3 +26,5 @@ draft: false
 6. 06-[Python 交互式编程](http://stugeek.gitee.io/stu-geek/posts/experiment6/)
 7. 07-[IT伦理与道德](http://stugeek.gitee.io/stu-geek/posts/experiment7/)
 8. 08-[字符游戏-贪吃蛇](http://stugeek.gitee.io/stu-geek/posts/experiment8/)
+9. 09-[字符游戏-智能蛇](http://stugeek.gitee.io/stu-geek/posts/experiment9/)
+10. 10-[互联网时代的热点领域选择、营销方法](http://stugeek.gitee.io/stu-geek/posts/experiment10/)
