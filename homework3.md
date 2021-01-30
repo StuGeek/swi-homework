@@ -174,13 +174,13 @@ y=x=11111111111111111111111111100001=ffffffe1
 
 (a)、当C为正数时，
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework3-image/1.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework3-image/1.png)
 
 所以，当n位二进制数C为正数时，在其第n位左边补0可以实现符号扩展
 
 (b)、当C为负数时，
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework3-image/2.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework3-image/2.png)
 
 所以，当n位二进制数C为负数时，在其第n位左边补1可以实现符号扩展
 <br/>

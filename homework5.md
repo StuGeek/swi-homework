@@ -5,46 +5,46 @@ draft: false
 tags: []
 ---
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework5-image/1.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework5-image/1.png)
 
 解：
 
 1）、
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework5-image/4.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework5-image/4.png)
 
 2）、
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework5-image/5.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework5-image/5.png)
 
 3）、
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework5-image/6.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework5-image/6.png)
 
 4）、
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework5-image/7.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework5-image/7.png)
 
 5）、
 
 答：等效电路就是具有相同逻辑功能，逻辑等价的电路。
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework5-image/8.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework5-image/8.png)
 
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework5-image/2.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework5-image/2.png)
 
 6）、
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework5-image/9.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework5-image/9.png)
 
 
 7）、
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework5-image/10.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework5-image/10.png)
 
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework5-image/3.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework5-image/3.png)
 
 ## 使用维基百科，解释以下概念。
 1)Logic gate：

@@ -114,7 +114,7 @@ machine code:
 
 2）Explain machine code execution with the fetch-decode-execute cycle
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework6-image/1.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework6-image/1.png)
 
 答：Main memory –> Fetch instruction –> Decode instruction –> Registers –> Get data –> Execute the instruction –> Main memory。
 
@@ -144,9 +144,9 @@ ACC是累加寄存器，当算术逻辑单元执行运算时，为其暂时存�
 
 3） Explain Instruction Format with example instructions.
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework6-image/2.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework6-image/2.png)
 
-![](http://stugeek.gitee.io/stu-geek/posts/homework6-image/2.png)
+![](http://stugeek.gitee.io/stu-geek/post/homework6-image/2.png)
 
 3、解释以下词汇
 

@@ -14,7 +14,7 @@ https://editor.construct.net/
 
 点击“新建”项目，建立你的游戏
 
-![](http://stugeek.gitee.io/stu-geek/posts/experiment2-assets/1.jpg)
+![](http://stugeek.gitee.io/stu-geek/post/experiment2-assets/1.jpg)
 
 ## 二、制作游戏
 
@@ -28,17 +28,17 @@ https://editor.construct.net/
 
 在Construct 3中点击鼠标右键，点击“新建对象”，找到Sprite
 
-![](http://stugeek.gitee.io/stu-geek/posts/experiment2-assets/2.jpg)
+![](http://stugeek.gitee.io/stu-geek/post/experiment2-assets/2.jpg)
 
 创建对象，将宇宙飞船的照片放进去，就创建了一个“宇宙飞船”的对象，陨石等之类的其它对象也是同理。
 
-![](http://stugeek.gitee.io/stu-geek/posts/experiment2-assets/3.jpg)
+![](http://stugeek.gitee.io/stu-geek/post/experiment2-assets/3.jpg)
 
 3、放置背景
 
 在页面上双击鼠标左键，找到“平铺背景”，
 
-![](http://stugeek.gitee.io/stu-geek/posts/experiment2-assets/4.jpg)
+![](http://stugeek.gitee.io/stu-geek/post/experiment2-assets/4.jpg)
 
 将照片放进去，就放置了背景，点击鼠标右键通过“对齐”或“编辑对象”等方式调整你的背景
 
@@ -46,11 +46,11 @@ https://editor.construct.net/
 
 在页面右侧找到“事件表”，
 
-![](http://stugeek.gitee.io/stu-geek/posts/experiment2-assets/5.jpg)
+![](http://stugeek.gitee.io/stu-geek/post/experiment2-assets/5.jpg)
 
 双击鼠标左键，点击“添加事件”实现你的游戏功能。
 
-![](http://stugeek.gitee.io/stu-geek/posts/experiment2-assets/6.jpg)
+![](http://stugeek.gitee.io/stu-geek/post/experiment2-assets/6.jpg)
 
 ## 三、游戏作品
 

@@ -7,7 +7,7 @@ tags: []
 
 ## 任务 1：简单程序
 
-![](http://stugeek.gitee.io/stu-geek/posts/experiment4-image/1.png)
+![](http://stugeek.gitee.io/stu-geek/post/experiment4-image/1.png)
 
 （1）打开网页 [The PIPPIN User’s Guide](slides/The PIPPIN User’s Guide.html) ，然后输入 Program 1：Add 2 number
 
@@ -73,7 +73,7 @@ ACC(acculator)是累加器，是8位寄存器，用来存放操作数或运算�
 
 ## 任务 2：简单循环
 
-![](http://stugeek.gitee.io/stu-geek/posts/experiment4-image/2.png)
+![](http://stugeek.gitee.io/stu-geek/post/experiment4-image/2.png)
 
 （1） 输入程序Program 2，运行并回答问题：
 
